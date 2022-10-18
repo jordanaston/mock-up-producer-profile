@@ -1,0 +1,115 @@
+body {
+    background-image: url("/mock-up-producer-profile/images/background-and-textured-of-dark-green-oil-paint-on-steel-background-free-photo.jpeg");
+    background-attachment: fixed;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0px;
+    background-size: 100%;
+   }
+
+   h1 { 
+    color: white;
+    font-weight: 100;
+    margin-left: 15px;
+    
+   }
+
+   h4 { 
+    color: white;
+    font-weight: 100;
+    margin-left: 15px;
+   }
+
+   .topnav a:hover {
+    background: black
+   }
+
+   .topnav a{
+    display: block;
+    padding: 25px;
+    color: white;
+   }
+
+   .topnav{
+    background-color: #0c6e3d;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%; 
+   }
+
+   .topnav ul{
+    text-align: right;
+    padding: 0;
+    margin: 0;
+   }
+
+   .topnav li{
+    display:inline-block;
+   }
+
+   .bottomnav a:hover {
+    background: black
+   }
+
+   .bottomnav a{
+    display: block;
+    padding: 20px;
+    color: white;
+   }
+
+   .bottomnav{
+    background-color: #0c6e3d;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    bottom: 0;
+    width: 100%; 
+   }
+
+   .bottomnav ul{
+    text-align: right;
+    padding: 0;
+    margin: 0;
+   }
+
+   .bottomnav li{
+    display:inline-block;
+   }
+
+
+  .bg{
+    width: 100%;
+    z-index: 0;
+  }
+
+  .small{
+    width: 20%;
+    border: 10px solid rgb(26, 26, 26);
+  }
+
+  .center {
+    text-align: center;
+  }
+
+  button {
+    background-color: rgb(26, 26, 26); /* Green */
+    border: 10px;
+    color: white;
+    padding: 15px 152px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background: black
+   }
+  
+  
+
+
+
+
